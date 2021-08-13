@@ -35,6 +35,42 @@ In this app the form is used to add a new movie to the database or update an exi
 ## 2. Troubleshooting a 504 error code.
 
 ## 3. Debugging exercise.
+```
+###
+# Problem Definition: This Ruby method should ensure 
+# that the word "Twitter" is spelt correctly. 
+###
+
+# Original code to be debugged:
+# Essentially: "If the input is this one particular 
+# misspelling of twitter, fix it, or else fall into 
+# an infinite recursive loop."
+
+# def fix_spelling(name)
+#   if name = "twittr"
+#     name = "twitter"
+#   else 
+#     fix_spelling(name)
+#   end   
+#   return "name"
+# end
+
+# My fixed algorithm works properly without falling
+# into the void, and I expanded it to work in a greater
+# variety of use cases, or return something cheeky
+# if a word that probably isn't "Twitter" is input.
+
+def fix_spelling(name)
+  if name == "Twitter"
+    return name
+  elsif name.downcase.include?('twit')
+    name = "Twitter"
+  else 
+    return "Did you mean Instagram?"
+  end
+  return name
+end
+```
 
 ## 4. Helping a customer solve their root issue.
 
