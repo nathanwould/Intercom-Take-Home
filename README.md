@@ -34,6 +34,10 @@ In this app the form is used to add a new movie to the database or update an exi
 
 ## 2. Troubleshooting a 504 error code.
 
+First I would collect whatever identification information is standard practice for Intercom (name and company, verify identity as required). Since a 504 error would most likely be an issue with Intercom’s server rather than a client-side issue, I would check to see if there were any outages with Intercom’s servers. If there were none I would then start gathering context around the error to see what specific request caused the 504 error. I would figure out if the error was happening in the browser or through another tool like Postman, and if it was happening in the browser I would have them clear the cache and refresh. 
+
+If that didn’t resolve the issue I would check the API routes specified to make sure there wasn’t an incorrect route causing the issue - Intercom’s error handling seems robust enough that a typo in a route would just fail and not cause a timeout but I think it’s always better to check.
+
 ## 3. Debugging exercise.
 ```
 ###
