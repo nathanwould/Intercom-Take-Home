@@ -9,9 +9,11 @@ In this app the form is used to add a new movie to the database or update an exi
 ```
   # POST /movies
   def create
-    # First, create a new instance of a Movie. Actors and directors are ignored because associations will be handled later.
+    # First, create a new instance of a Movie. Actors and directors 
+    # are ignored because associations will be handled later.
     @movie = Movie.new(movie_params.except(:actors, :directors))
-    # Then, see if actors in incoming movie params exist and if not, add them to the Actors table. The associated actors are saved in the @actors variable.
+    # Then, see if actors in incoming movie params exist and if not, 
+    # add them to the Actors table. The associated actors are saved in the @actors variable.
     @actors = movie_params[:actors].map do |actor|
       Actor.find_or_create_by(name: actor[:name])
     end
