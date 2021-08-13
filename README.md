@@ -74,4 +74,11 @@ end
 
 ## 4. Helping a customer solve their root issue.
 
+I think one of the best examples was during my time at StoryCorps organizing a 10-day training that happened twice a year and involved almost every department of the institution for at least part of it. It was the onboarding and training of new Facilitators, who did much of the groundwork of the nonprofit, physically recording nearly every interview produced. While some departments knew exactly what they had to do as their portion of the training, there were some small departments who had recently lost the individual who usually conducted their training session so much of my time was spent helping different departments track down what should be covered and how. 
+
+It quickly became clear that a central repository with all materials used for each training and a general outline of what would be covered was needed, and I started collecting as much information as possible to put on a page on the company Wiki so everything would be publicly accessible and not get lost in the email inbox or hard drive of someone who moved on to a new position elsewhere. Since there was also little documentation of what was expected of me as the coordinator, I also created a walkthrough for myself and whoever would take over after my time at StoryCorps. 
+
+Despite feeling like I was flying by the seat of my pants the entire 10 day training and for almost 6 weeks before, I got feedback from participants that it was the smoothest a Facilitator Training had ever gone in their time at the company. By the time the next training rolled around, the extra lengths I went to document everything cut the time it took for myself to coordinate everything by about half, with similar time savings for departments that had encountered issues the time before or had turnover before the second training. Before my time the mentality had been that all of these individual departments owned the training and HR was just there to support, but with my involvement we shifted to HR owning the training, which a variety of departments were responsible for executing.
+
+
 ## 5. Tell us about a time where you didn't know what to do.
