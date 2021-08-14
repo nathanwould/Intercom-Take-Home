@@ -97,4 +97,4 @@ Once I decided what my project would be, I sketched out a detailed schedule to g
 
 Despite these pivots I had to make, I had set enough time to do some research on handling key events in vanilla javascript (I was not allowed to use a framework for handling key events) and css animations, and all of this research greatly reduced the number of issues I ran into while actually building the application. Because of those time savings I was able to do some additional research and implement 2 oscillator filters: a pinking filter (which adds pink noise to the pitch played and made the tone of the synthesizer a little more natural and less cheesy sounding), and a lowpass filter attached to a slider that let you cut out high frequencies to change the timbre of the synthesizer.
 
-While I wasn’t able to accomplish all of my post-MVP goals, my strategy of trying to approach a project by taking the time to understand what it entailed as much as possible paid off.
+My strategy of trying to approach a project by taking the time to understand what it entailed as much as possible paid off and I was able to meet all of my MVP and several post-MVP goals.
